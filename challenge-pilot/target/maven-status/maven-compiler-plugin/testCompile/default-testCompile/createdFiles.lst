@@ -1,7 +1,0 @@
-stepsDefinitions/SearchTestDefinitions.class
-pageMethods/SearchTestMethods.class
-RunCucumberTest.class
-stepsDefinitions/CommonsDefinitions.class
-pageMethods/CommonsMethods.class
-pageObjects/SearchTestPage.class
-configuration/Iproperties.class
