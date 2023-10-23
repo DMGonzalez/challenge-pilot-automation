@@ -1,0 +1,12 @@
+## Comando de ejecución estandar con reintentos
+```
+    mvn clean test -Denv=prod -Dos=windows -Dsurefire.rerunFailingTestsCount=2 -Dcucumber.filter.tags="@run" & allure serve target/allure-results
+```
+## Comando de ejecución estandar
+```
+    mvn clean test -Denv=prod -Dos=windows -Dcucumber.filter.tags="@run" & allure serve target/allure-results
+```
+## Comando de ejecución linux
+```
+    mvn clean test -Denv=prod -Dos=linux -Dcucumber.filter.tags="@run" & allure serve target/allure-results
+```
